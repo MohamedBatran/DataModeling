@@ -49,7 +49,8 @@ ORDER BY purchase_frequency DESC;
 SELECT COUNT(*) AS late_orders
 FROM "FactOrders"
 WHERE delivered_date::DATE > estimated_time_delivery::DATE;
--- 
+
+--  Are late order affecting the customer satisfaction?
 SELECT COUNT(*) AS late_orders,
 AVG(feedback_score) AS average_feedback_score
 FROM "FactOrders"
