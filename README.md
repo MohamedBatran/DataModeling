@@ -5,9 +5,10 @@ This project focuses on designing and implementing a data warehouse (DWH) for an
 
 ## Objectives
 - Design a star schema DWH model to store e-commerce data.
+- Implement an ETL pipeline to transform and load data into the DWH.
 - Answer critical business questions through SQL queries.
 - Visualize data insights using Power BI dashboards.
-- Implement an ETL pipeline to transform and load data into the DWH.
+
 
 ## Data Sources
 The project utilizes the following datasets:
@@ -93,10 +94,10 @@ The DWH follows a star schema design with:
 ## Repository Structure
 
 ```
-|-- data/                    # Sample datasets
-|-- sql/                     # SQL scripts for table creation and queries
-|-- etl_pipeline.py          # Python script for ETL process
-|-- dashboard.pbix           # Power BI dashboard file
+|-- Dataset/                    # Sample datasets
+|-- Schema/                     # ERD and SQL script for table creation and queries
+|-- ETL.ipynb          # Python script for ETL process
+|-- Analysis           # Power BI dashboard file and sql queries for answering questions
 |-- README.md                # Project documentation
 ```
 
@@ -109,6 +110,7 @@ For questions or collaboration opportunities, feel free to reach out:
 - **Name:** Mohamed Batran
 - **Email:** batranmohamed001@gmail.com
 - **Location:** Giza, Egypt
+- **Linkedin:** https://www.linkedin.com/in/mohamed-batran-768289203/
 
 ---
 
