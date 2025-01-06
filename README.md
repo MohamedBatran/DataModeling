@@ -97,7 +97,7 @@ The DWH follows a star schema design with:
 |-- Dataset/                    # Sample datasets
 |-- Schema/                     # ERD and SQL script for table creation and queries
 |-- ETL.ipynb                   # Python script for ETL process
-|-- Analysis                    # Power BI dashboard file and sql queries for answering questions
+|-- Analysis/                    # Power BI dashboard file and sql queries for answering questions
 |-- README.md                   # Project documentation
 ```
 
